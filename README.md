@@ -79,6 +79,23 @@ The Online Health Insurance Management System (OHIMS) is a web-based application
 ## Screenshots Demonstrating the Execution of the Application
  **User Registration Page**
 
+## Screenshots Demonstrating the Execution of the Application
+ **User Login Page**
+
+## Screenshots Demonstrating the Execution of the Application
+ **Home Page**
+
+## Screenshots Demonstrating the Execution of the Application
+ **Admin Dashboard**
+
+## Screenshots Demonstrating the Execution of the Application
+ **Agent Dashboard**
+
+## Screenshots Demonstrating the Execution of the Application
+ **Customer Dashboard**
+
+
+
 ## Conclusion
 The Online Health Insurance Management System (OHIMS) enhances health insurance management through a user-friendly interface and robust security. It is scalable and capable of integrating with additional services.
 
