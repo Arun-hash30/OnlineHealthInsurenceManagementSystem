@@ -79,14 +79,49 @@ The Online Health Insurance Management System (OHIMS) is a web-based application
 ## Screenshots Demonstrating the Execution of the Application
  **User Registration Page**
  ![Registration](https://github.com/user-attachments/assets/6d91e36c-7295-42b6-8a04-fb8341455c79)
+ &nbsp;  
+&nbsp;  
+&nbsp; 
 
  **User Login Page**
+ ![Login](https://github.com/user-attachments/assets/db103fd6-265d-4abb-9375-48f8018d582d)
+&nbsp;  &nbsp;  &nbsp; 
 
  **Home Page**
+ ![Home](https://github.com/user-attachments/assets/8578a30a-2e77-4803-8a18-6965e676dcb6)
+&nbsp;  
+&nbsp;  
+&nbsp; 
 
  **Admin Dashboard**
+ ![Admin1 jgp](https://github.com/user-attachments/assets/7951a1af-0188-409c-8c99-70932b625a68)
+&nbsp;  
+&nbsp;  
+&nbsp; 
+ ![Admin2 jgp](https://github.com/user-attachments/assets/a970d37b-4dcd-40e2-b490-7f81909ffc33)
+&nbsp;  
+&nbsp;  
+&nbsp; 
+ ![Admin3 jgp](https://github.com/user-attachments/assets/74250060-dbe2-470d-88a2-d22e91c56070)
+&nbsp;  
+&nbsp;  
+&nbsp; 
+ ![Admin4 jgp](https://github.com/user-attachments/assets/324e0a2e-61b8-4ec1-abfa-cc4f3bf458f8)
+&nbsp;  
+&nbsp;  
+&nbsp; 
+ ![Admin5 jgp](https://github.com/user-attachments/assets/6b504c87-5244-46db-8bff-22dac3cff4f4)
+&nbsp;  
+&nbsp;  
+&nbsp; 
 
  **Agent Dashboard**
+ ![Agent1 jgp](https://github.com/user-attachments/assets/bbfdf1bd-7223-4329-9d9e-31180c5f7477)
+&nbsp;  
+&nbsp;  
+&nbsp; 
+ ![Agent2jpg](https://github.com/user-attachments/assets/926fa7d1-08e2-4236-b7c8-d42807c0ee2d)
+
 
  **Customer Dashboard**
 
