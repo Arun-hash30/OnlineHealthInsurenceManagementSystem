@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "spring.mvc.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mvc.cors.allowed-origins'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "jwt.expiration.ms",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration.ms'"
+  },
+  {
+    "name": "file.upload-dir",
+    "type": "java.lang.String",
+    "description": "A description for 'file.upload-dir'"
+  }
+]}

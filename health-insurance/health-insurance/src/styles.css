@@ -1,0 +1,389 @@
+/* Global Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('assets/images/image.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #333; /* Ensure good contrast with the background */
+  box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /* Inherit box-sizing for all elements */
+}
+
+/* Overlay to ensure content readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  z-index: -1; /* Ensure it's behind content */
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  flex: 1;
+}
+
+header nav {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+header nav a:hover {
+  text-decoration: underline; /* Visual feedback for links */
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+/* Container Styles */
+.container {
+  margin-top: 60px; /* Adjust based on header height */
+  margin-bottom: 60px; /* Adjust based on footer height */
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 120px); /* Container height minus header and footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Side-by-Side Layout */
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Form and Policy List Styles */
+.form-container,
+.policy-list {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: calc(100vh - 160px); /* Adjust height based on container and footer height */
+}
+
+.policy-list {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.policy-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.policy-list li {
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Add smooth hover effect */
+}
+
+.policy-list li:hover {
+  background-color: #eaeaea;
+}
+
+/* Form Elements */
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Added border for form elements */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.notification {
+  color: white;
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Client Details Styles */
+.client-details {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-item h4 {
+  margin: 0;
+  color: #2c3e50;
+  flex: 1;
+  text-align: left;
+}
+
+.detail-item p {
+  margin: 0;
+  font-size: 18px;
+  flex: 2;
+  text-align: right;
+}
+
+/* Loading Styles */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+/* Manage Health Policies Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.icon-button:hover {
+  color: #0056b3;
+}
+
+/* Health Policy Details Styles */
+.policy-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.policy-details-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.policy-details-table td:first-child {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+/* Accessibility and Media Queries */
+
+/* Improve form accessibility */
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .side-by-side {
+    flex-direction: column;
+  }
+
+  .form-container,
+  .policy-list {
+    width: 100%;
+  }
+}
+
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px; /* Adjust based on header height */
+  margin-bottom: 60px; /* Adjust based on footer height */
+}
+
+.home-content {
+  flex: 2; /* Adjust as needed */
+  padding: 20px;
+}
+
+.home-image-section {
+  flex: 1; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.home-image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+/* Register.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  padding: 20px;
+  max-width: 600px; /* Medium size */
+  margin: 0 auto;
+  min-height: calc(100vh - 120px); /* Adjust to accommodate header and footer */
+  box-sizing: border-box;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 70vh; /* Limit height to prevent overflow */
+  overflow-y: auto; /* Add scrollbar if content exceeds height */
+}
+
+.register-form input,
+.register-form textarea,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link p {
+  margin: 0;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
