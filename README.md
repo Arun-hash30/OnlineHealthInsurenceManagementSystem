@@ -78,20 +78,16 @@ The Online Health Insurance Management System (OHIMS) is a web-based application
 
 ## Screenshots Demonstrating the Execution of the Application
  **User Registration Page**
+ ![Registration](https://github.com/user-attachments/assets/6d91e36c-7295-42b6-8a04-fb8341455c79)
 
-## Screenshots Demonstrating the Execution of the Application
  **User Login Page**
 
-## Screenshots Demonstrating the Execution of the Application
  **Home Page**
 
-## Screenshots Demonstrating the Execution of the Application
  **Admin Dashboard**
 
-## Screenshots Demonstrating the Execution of the Application
  **Agent Dashboard**
 
-## Screenshots Demonstrating the Execution of the Application
  **Customer Dashboard**
 
 
